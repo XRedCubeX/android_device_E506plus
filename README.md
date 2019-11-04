@@ -1,2 +1,3 @@
 # android_device_jrdchz_K960
-TWRP Device Tree for MTK Based Fake Tablets (i.e: K960)
+
+Unofficial port of TWRP for a number of Mediatek MT6580-based fake tablets.
