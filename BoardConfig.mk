@@ -56,6 +56,11 @@ BOARD_BOOTIMAGE_PARTITION_SIZE := 16777216
 BOARD_RECOVERYIMAGE_PARTITION_SIZE := 16777216
 BOARD_FLASH_BLOCK_SIZE := 131072
 
+# Screen
+RECOVERY_TOUCHSCREEN_SWAP_XY := true
+RECOVERY_TOUCHSCREEN_FLIP_Y := true
+# I got headaches finding out the correct variables for the screen. They may be different depending on the device.
+
 # TWRP stuff
 RECOVERY_VARIANT := twrp
 DEVICE_RESOLUTION := 800x1280
