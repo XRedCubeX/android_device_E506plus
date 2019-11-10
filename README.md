@@ -1,6 +1,7 @@
 # Device Tree For mt6580 fake tablets. (K960, K107, etc)
 
-**Normal specs:**
+Normal specs:
+================================
 Basic   | Spec Sheet
 -------:|:--------------------------------------------------
 CPU     | Mediatek MT6580 quad-core 1.2GHZ
