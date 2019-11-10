@@ -17,9 +17,12 @@
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
+# Inherit from hardware-specific part of the product configuration
+$(call inherit-product, device/jrdchz/K960/device.mk)
+
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := K960
 PRODUCT_NAME := full_K960
-PRODUCT_BRAND := jrdchz
-PRODUCT_MODEL := K960_alps
+PRODUCT_BRAND := google
+PRODUCT_MODEL := K960
 PRODUCT_MANUFACTURER := jrdchz

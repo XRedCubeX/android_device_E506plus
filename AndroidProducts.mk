@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_K960.mk
+    $(LOCAL_DIR)/full_K960.mk
