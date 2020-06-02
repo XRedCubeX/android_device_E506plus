@@ -14,7 +14,9 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/jrdchz/K960
+LOCAL_PATH := device/ngm/E506plus
+
+ANDROID_COMMON_BUILD_MK = true
 
 # Architecture
 TARGET_ARCH := arm
@@ -49,11 +51,11 @@ BOARD_KERNEL_CMDLINE += \
 BOARD_KERNEL_BASE := 0x80000000
 BOARD_KERNEL_PAGESIZE := 2048
 BOARD_MKBOOTIMG_ARGS  := --kernel_offset 0x00008000 --ramdisk_offset 0x04000000 --tags_offset 0x0e000000 --board vKB076F
-TARGET_PREBUILT_KERNEL := device/jrdchz/K960/prebuilt/kernel
+TARGET_PREBUILT_KERNEL := device/ngm/E506plus/prebuilt/kernel
 
 # Graphics
 USE_OPENGL_RENDERER := true
-BOARD_EGL_CFG := device/jrdchz/K960/configs/egl.cfg
+BOARD_EGL_CFG := device/ngm/E506plus/configs/egl.cfg
 TARGET_SCREEN_HEIGHT := 800
 TARGET_SCREEN_WIDTH := 1280
 BOARD_EGL_WORKAROUND_BUG_10194508 := true
@@ -92,7 +94,7 @@ TARGET_PROVIDES_LIBLIGHT := true
 BOARD_CHARGER_SHOW_PERCENTAGE := true
 
 # RECOVERY
-TARGET_RECOVERY_FSTAB := device/jrdchz/K960/recovery/root/twrp.fstab
+TARGET_RECOVERY_FSTAB := device/ngm/E506plus/recovery/root/twrp.fstab
 
 # PARTITIONS
 BOARD_BOOTIMAGE_PARTITION_SIZE := 16777216
@@ -106,7 +108,7 @@ RECOVERY_TOUCHSCREEN_FLIP_Y := true
 
 # TWRP stuff
 RECOVERY_VARIANT := twrp
-DEVICE_RESOLUTION := 800x1280
+DEVICE_RESOLUTION := 480x854
 TW_THEME := portrait_hdpi
 RECOVERY_GRAPHICS_USE_LINELENGTH := true
 TW_NO_REBOOT_BOOTLOADER := true
@@ -122,4 +124,4 @@ TW_EXCLUDE_SUPERSU := false
 TW_USE_TOOLBOX := true
 
 # Inherit form vendor
-include vendor/jrdchz/K960/BoardConfigVendor.mk
+include vendor/ngm/E506plus/BoardConfigVendor.mk

@@ -1,7 +1,7 @@
 #!/bin/bash
 
-VENDOR=jrdchz
-DEVICE=K960
+VENDOR=NGM
+DEVICE=E506plus
 
 BASE=../../../vendor/$VENDOR/$DEVICE/proprietary
 

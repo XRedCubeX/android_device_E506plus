@@ -63,4 +63,4 @@ debug.hwui.render_dirty_regions=false
 
 ro.sf.lcd_density=210
 
-ro.camera.project=K960
+ro.camera.project=E506plus

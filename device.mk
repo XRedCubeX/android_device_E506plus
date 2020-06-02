@@ -1,8 +1,8 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
-$(call inherit-product, vendor/jrdchz/K960/K960-vendor.mk)
+$(call inherit-product, vendor/ngm/E506plus/E506plus-vendor.mk)
 
-LOCAL_PATH := device/jrdchz/K960
+LOCAL_PATH := device/ngm/E506plus
 
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
@@ -59,7 +59,6 @@ PRODUCT_COPY_FILES += \
 # Audio
 PRODUCT_PACKAGES += \
     audio.a2dp.default \
-    libtinycompress
 
 # Dalvik
 PRODUCT_TAGS += dalvik.gc.type-precise
@@ -95,3 +94,4 @@ PRODUCT_PROPERTY_OVERRIDES += ro.config.low_ram=true
 
 # Dalvik
 $(call inherit-product, frameworks/native/build/phone-xxhdpi-2048-dalvik-heap.mk)
+

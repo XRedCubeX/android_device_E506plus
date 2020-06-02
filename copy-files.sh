@@ -6,8 +6,8 @@ echo "You must specify system directory as first argument";
 exit
 fi
 
-VENDOR=jrdchz
-DEVICE=K960
+VENDOR=NGM
+DEVICE=E506plus
 
 BASE=../../../vendor/$VENDOR/$DEVICE/proprietary
 

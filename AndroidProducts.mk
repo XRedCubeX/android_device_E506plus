@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/full_K960.mk
+    $(LOCAL_DIR)/full_E506plus.mk
