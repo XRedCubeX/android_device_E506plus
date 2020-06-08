@@ -51,7 +51,7 @@ BOARD_KERNEL_CMDLINE += \
 BOARD_KERNEL_BASE := 0x80000000
 BOARD_KERNEL_PAGESIZE := 2048
 BOARD_MKBOOTIMG_ARGS  := --kernel_offset 0x00008000 --ramdisk_offset 0x04000000 --tags_offset 0x0e000000 --board vKB076F
-TARGET_PREBUILT_KERNEL := device/ngm/E506plus/prebuilt/kernel
+TARGET_PREBUILT_KERNEL := $(LOCAL_PATH)/prebuilt/kernel
 
 # Graphics
 USE_OPENGL_RENDERER := true
@@ -105,23 +105,6 @@ BOARD_FLASH_BLOCK_SIZE := 131072
 RECOVERY_TOUCHSCREEN_SWAP_XY := true
 RECOVERY_TOUCHSCREEN_FLIP_Y := true
 # I got headaches finding out the correct variables for the screen. They may be different depending on the device.
-
-# TWRP stuff
-RECOVERY_VARIANT := twrp
-DEVICE_RESOLUTION := 480x854
-TW_THEME := portrait_hdpi
-RECOVERY_GRAPHICS_USE_LINELENGTH := true
-TW_NO_REBOOT_BOOTLOADER := true
-TW_BRIGHTNESS_PATH := /sys/devices/platform/leds-mt65xx/leds/lcd-backlight/brightness
-TARGET_USE_CUSTOM_LUN_FILE_PATH := /sys/devices/platform/mt_usb/musb-hdrc.0.auto/gadget/lun%d/file
-TW_MAX_BRIGHTNESS := 255
-TW_INCLUDE_FB2PNG := true
-TW_CUSTOM_CPU_TEMP_PATH := /sys/devices/virtual/thermal/thermal_zone1/temp
-TW_REBOOT_BOOTLOADER := true
-TW_REBOOT_RECOVERY := true
-TW_HAS_DOWNLOAD_MODE := true
-TW_EXCLUDE_SUPERSU := false
-TW_USE_TOOLBOX := true
 
 # Inherit form vendor
 include vendor/ngm/E506plus/BoardConfigVendor.mk
