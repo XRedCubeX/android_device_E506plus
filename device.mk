@@ -70,7 +70,6 @@ PRODUCT_PACKAGES += \
     dhcpcd.conf \
     wpa_supplicant \
     wpa_supplicant.conf \
-    libwifi-hal-mt66xx   \
     netd
 
 # Bluetooth
