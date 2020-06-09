@@ -10,7 +10,7 @@ Memory  | 2GB RAM
 Screen  | 480x854
 Storage | 16 GB
 Android | 5.1
-Kernel  | 3.10
+Kernel  | 3.10.72
 
 ![E506Plus](https://www.bitmat.it/wp-content/uploads/2016/05/NGM-YouColor-E505-PLUS.jpg "E506Plus")
 
