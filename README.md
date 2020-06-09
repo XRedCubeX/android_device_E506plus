@@ -21,4 +21,5 @@ Kernel  | 3.10.72
 This branch is for build Android 5.1 based ROMS (i.e: LineageOS 12.1, CyanogenMod 12.1, etc)
 
 Lineage OS 12.1 Alpha UNDER DEVELOPMENT
+
 Current Status: Not Booting
