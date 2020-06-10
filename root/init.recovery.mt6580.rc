@@ -22,5 +22,4 @@ on init
 on property:ro.debuggable=1
 # 	restore cmode to normal for making USB enumeration
 	write /sys/devices/platform/mt_usb/cmode 1
-    rm /system/recovery-from-boot.p
-    rm /system/recovery-from-boot.bak
+
