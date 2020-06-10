@@ -24,7 +24,7 @@ PRODUCT_COPY_FILES += \
 # Ramdisk
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/root/init.mt6580.rc:root/init.mt6580.rc \
-    $(LOCAL_PATH)/root/init.recovery.mt6580.rc:root/init.recovery.mt6580.rc.rc \
+    $(LOCAL_PATH)/root/init.mt6580.recovery.rc:root/init.mt6580.recovery.rc \
     $(LOCAL_PATH)/root/init.mt6580.usb.rc:root/init.mt6580.usb.rc \
     $(LOCAL_PATH)/root/init.ssd_nomuser.rc:root/init.ssd_nomuser.rc \
     $(LOCAL_PATH)/root/init.project.rc:root/init.project.rc \
