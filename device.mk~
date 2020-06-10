@@ -24,14 +24,18 @@ PRODUCT_COPY_FILES += \
 # Ramdisk
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/root/init.mt6580.rc:root/init.mt6580.rc \
-    $(LOCAL_PATH)/root/init.mt6580.recovery.rc:root/init.mt6580.recovery.rc \
+    $(LOCAL_PATH)/root/init.recovery.mt6580.rc:root/init.recovery.mt6580.rc.rc \
     $(LOCAL_PATH)/root/init.mt6580.usb.rc:root/init.mt6580.usb.rc \
     $(LOCAL_PATH)/root/init.ssd_nomuser.rc:root/init.ssd_nomuser.rc \
     $(LOCAL_PATH)/root/init.project.rc:root/init.project.rc \
     $(LOCAL_PATH)/root/factory_init.project.rc:root/factory_init.project.rc \
     $(LOCAL_PATH)/root/factory_init.rc:root/factory_init.rc \
     $(LOCAL_PATH)/root/init.xlog.rc:root/init.xlog.rc \
-    $(LOCAL_PATH)/root/fstab.mt6580:root/fstab.mt6580
+    $(LOCAL_PATH)/root/fstab.mt6580:root/fstab.mt6580 \
+    $(LOCAL_PATH)/root/sbin/adbd:root/sbin/adbd \
+    $(LOCAL_PATH)/root/init.rc:root/init.rc \
+    $(LOCAL_PATH)/root/init.usb.rc:root/init.usb.rc \
+    $(LOCAL_PATH)/root/meta_init.rc:root/meta_init.rc
 
 # Thermal
 PRODUCT_COPY_FILES += \
