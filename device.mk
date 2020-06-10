@@ -23,15 +23,15 @@ PRODUCT_COPY_FILES += \
 
 # Ramdisk
 PRODUCT_COPY_FILES += \
-    $(DEVICE_DIR)/rootdir/init.mt6580.rc:root/init.mt6580.rc \
-    $(DEVICE_DIR)/rootdir/init.mt6580.recovery.rc:root/init.mt6580.recovery.rc \
-    $(DEVICE_DIR)/rootdir/init.mt6580.usb.rc:root/init.mt6580.usb.rc \
-    $(DEVICE_DIR)/rootdir/init.ssd_nomuser.rc:root/init.ssd_nomuser.rc \
-    $(DEVICE_DIR)/rootdir/init.project.rc:root/init.project.rc \
-    $(DEVICE_DIR)/rootdir/factory_init.project.rc:root/factory_init.project.rc \
-    $(DEVICE_DIR)/rootdir/factory_init.rc:root/factory_init.rc \
-    $(DEVICE_DIR)/rootdir/init.xlog.rc:root/init.xlog.rc \
-    $(DEVICE_DIR)/rootdir/fstab.mt6580:root/fstab.mt6580
+    $(DEVICE_DIR)/root/init.mt6580.rc:root/init.mt6580.rc \
+    $(DEVICE_DIR)/root/init.mt6580.recovery.rc:root/init.mt6580.recovery.rc \
+    $(DEVICE_DIR)/root/init.mt6580.usb.rc:root/init.mt6580.usb.rc \
+    $(DEVICE_DIR)/root/init.ssd_nomuser.rc:root/init.ssd_nomuser.rc \
+    $(DEVICE_DIR)/root/init.project.rc:root/init.project.rc \
+    $(DEVICE_DIR)/root/factory_init.project.rc:root/factory_init.project.rc \
+    $(DEVICE_DIR)/root/factory_init.rc:root/factory_init.rc \
+    $(DEVICE_DIR)/root/init.xlog.rc:root/init.xlog.rc \
+    $(DEVICE_DIR)/root/fstab.mt6580:root/fstab.mt6580
 
 # Thermal
 PRODUCT_COPY_FILES += \
