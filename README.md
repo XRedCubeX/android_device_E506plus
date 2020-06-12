@@ -22,4 +22,4 @@ This branch is for build Android 5.1 based ROMS (i.e: LineageOS 12.1, CyanogenMo
 
 Lineage OS 12.1 Alpha No longer under development
 
-Current Status: Abandoned
+Current Status: Abandoned (Never Booted)
